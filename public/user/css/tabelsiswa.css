@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap');
+
+html,
+body,
+button{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+body {
+    margin:0;
+    line-height: 1.5;
+    background-color: white;
+}
+
+.justify-content-beetwen{
+    justify-content: space-between;
+}
+
+/* Navbar */
+.navbar {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.navbar .collapse ul li {
+  margin-left: -23px;
+  font-size: 18px;
+}
+.navbar .navbar-brand img{
+  width: 30px;
+  margin-left: 70px;
+}
+.navbar .collapse .navbar-nav a{
+  color: white;
+}
+.navbar .collapse .navbar-nav .dropdown-menu a{
+  color: black;
+  margin-bottom: 5px;
+}
+.navbar h1{
+  font-size: 20px;
+  color: white;
+  margin-top: 10px;
+}
+.navbar .nav-item:not(:last-child) {
+  margin-right: 35px;
+}
+
+.dropdown-toggle::after {
+   transition: transform 0.15s linear; 
+}
+
+.show.dropdown .dropdown-toggle::after {
+  transform: translateY(3px);
+}
+
+.dropdown-menu {
+  margin-top: 0;
+}
+
+
+/* Siswa */
+.siswa .row h3{
+    padding-top: 20vh;
+    margin-left: 25px;
+    padding-bottom: 20px;
+}
+.siswa .row1 h4{
+    margin-left: 18vh;
+}
+.siswa .row1 .btn {
+    margin-left: 31vh;
+    margin-top: -10vh;
+}
+
+
+/* copyright */
+.copyright{
+    border-top: 1px solid #c5c5c5;
+    padding: 30px 15px;
+    text-align: center;
+    color: #555555;
+    font-size: 16px;
+}

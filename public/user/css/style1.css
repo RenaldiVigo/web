@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap');
+
+html,
+body,
+button{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+body, html, .main {
+  height: 100%;
+}
+* { box-sizing: border-box; }
+html{
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.navbar .collapse ul li {
+  margin-left: -23px;
+  font-size: 18px;
+}
+.navbar .navbar-brand img{
+  width: 30px;
+  margin-left: 70px;
+}
+.navbar .collapse .navbar-nav a{
+  color: white;
+}
+.navbar .collapse .navbar-nav .dropdown-menu a{
+  color: black;
+  margin-bottom: 5px;
+}
+.navbar h1{
+  font-size: 20px;
+  color: white;
+  margin-top: 10px;
+}
+.navbar .nav-item:not(:last-child) {
+  margin-right: 35px;
+}
+
+.dropdown-toggle::after {
+   transition: transform 0.15s linear; 
+}
+
+.show.dropdown .dropdown-toggle::after {
+  transform: translateY(3px);
+}
+
+.dropdown-menu {
+  margin-top: 0;
+}
+
+
+/* Siswa */
+.card .row h3{
+    padding-top: 20vh;
+    margin-left: 10vh;
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+.card .row1 h4{
+    margin-left: 18vh;
+}
+.card .row1 .btn {
+    margin-left: 31vh;
+    margin-top: -10vh;
+}
+table .table{
+    padding-top: 20vh;
+}
+
+/* sambutan */
+.sambutan .row img{
+    margin-bottom: 20px;
+    margin-top: 15vh;
+    width: 300px;
+    border: 3px solid grey;
+    border-radius: 100%;
+}
+.sambutan .row .col-md-10 h6{
+    font-size: 18px;
+}
+.sambutan .row .col-md-10 .h61{
+    padding-left: 100vh;
+    padding-top: 10vh;
+}
+.sambutan .row .col-md-10 .h62{
+    padding-left: 100vh;
+}
+.sambutan .row .col-md-10 .h63{
+    padding-left: 100vh;
+}
+/* Visi misi */
+.row .col-md-7 .visi{
+    padding-top: 40px;
+    text-align: center;
+    color: darkred;
+}
+
+.row .col-md-7 .isivisi{
+    padding-top: 10px;
+    text-align: center;
+}
+.row .col-md-7 .misi{
+    padding-top: 50px;
+    text-align: center;
+    color: darkred;
+}
+.row .col-md-7 .misi .isimisi{
+  text-align: center;
+}
+.row .col-md-7 .tujuan{
+    padding-top: 50px;
+    text-align: center;
+    color: darkred;
+} 
+.row .col-md-7 .tujuan li{
+  text-align: center;
+}
+.row .col-md-7 ul{
+    text-align: justify;
+    padding-top: 10px;
+}
+/* copyright */
+.copyright{
+    border-top: 1px solid #c5c5c5;
+    padding: 30px 15px;
+    text-align: center;
+    color: #555555;
+    font-size: 16px;
+}
